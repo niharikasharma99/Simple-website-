@@ -1,0 +1,252 @@
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ian-dooley-3NCA3tbaE5I-unsplash.jpg);
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+float: right;
+list-style-type: none;
+margin-top:25px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration:none;
+color: #fff;
+padding:5px 20px;
+border: 1px solid transparent;
+transition: 3s ease;
+}
+ul li a:hover{
+background-color:#fff;
+color:#000;
+}
+.logo h1{
+float: left;
+width:150x;
+height: auto;
+color: #fff;
+font-size:30px;
+}
+
+.main{
+max-width:1500px;
+margin:auto;
+}
+ul li.active a{
+background-color:#fff;
+color:#000;
+}
+.title{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+background-color:black;
+color: #fff;
+font-size:70px;
+}
+.button{
+position: absolute;
+top:60%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+.btn{
+border: 1px solid #fff;
+padding: 10px 30px;
+color:#fff;
+text-decoration:none;
+}
+.btn:hover{
+background-color:#fff;
+color:#000;
+}
+*{
+margin:0;
+padding:0;
+font-family:Sans Serif;
+}
+.window{
+background-image: url(applebg.jpg);
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+.box1{
+width: 300px;
+height: 500px;
+background:white;
+color: #fff;
+top:60%;
+left:25%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing:border-box;
+padding:50px;
+opacity:0.85;
+box-shadow: 10px 10px 10px 10px grey;
+}
+.box2{
+width: 300px;
+height: 500px;
+background:white;
+color: #fff;
+top:60%;
+left:50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing:border-box;
+padding:50px;
+opacity:0.85;
+box-shadow: 10px 10px 10px 10px grey;
+}
+.box3{
+width: 300px;
+height: 500px;
+background:white;
+color: #fff;
+top:60%;
+left:75%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing:border-box;
+padding:50px;
+opacity:0.85;
+box-shadow: 10px 10px 10px 10px grey;
+}
+.dsc{
+position:absolute;
+width:200px;
+height: auto;
+}
+.wt{
+position:absolute;
+width:200px;
+height: auto;
+}
+
+.launchpad{
+position:absolute;
+width:200px;
+height: auto;
+}
+h2{
+margin:0;
+padding: 0 0 0px;
+font-size:23px;
+position:absolute;
+top:225px;
+left:20px;
+}
+.box2 h2{
+margin:0;
+padding: 0 0 0px;
+font-size:23px;
+position:absolute;
+top:225px;
+left:50px;
+color:black;
+}
+.box3 h2{
+margin:0;
+padding: 0 0 0px;
+font-size:23px;
+position:absolute;
+top:225px;
+left:95px;
+color:black;
+}
+p{
+margin:0;
+padding: 0 0 0px;
+font-size:18px;
+position:absolute;
+top:250px;
+left:15px;
+right:15px;
+color:black;
+text-align:justify;
+}
+.box1 a,.box2 a,.box3 a{
+position:absolute;
+top:450px;
+left:15px;
+right:15px;
+}
+.box1 input[type="submit"],.box2 input[type="submit"],.box3 input[type="submit"]
+{
+border:none;
+outline: none;
+height:20px;
+font-size:18px;
+background:red;
+color:white;
+width:270px;
+}
+.box1 input[type="submit"]:hover,.box2 input[type="submit"]:hover,.box3 input[type="submit"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+}
+div.two{
+position:relative;
+}
+div.three{
+position:relative;
+}
+div.four{
+position:relative;
+}
+.back{
+background:black;
+height:60vh;
+background-size:cover;
+background-position: center;
+}
+
+.image{
+position:relative;
+left:10%;
+}
+.content h1{
+position:relative;
+left:50%;
+color: #fff;
+font-size:70px;
+transform: translate(-50%,-50%);
+}
+
+.content p{
+color: #fff;
+top:60%;
+font-size:25px;
+}
+.click{
+position: absolute;
+top:300%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+.abc{
+border: 1px solid #fff;
+padding: 10px 30px;
+color:#fff;
+text-decoration:none;
+}
+.abc:hover{
+background-color:#fff;
+color:#000;
+}
+.window2{
+background-image: url(fbbg.jpg);
+height:100vh;
+background-size: cover;
+background-position: center;
+}
+

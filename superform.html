@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Register</title>
+<style>
+*{
+padding:0;
+margin:0;
+}
+
+.superbox{
+background-image:url(julentto-photography-CIuakYIjadc-unsplash.jpg);
+background-size:cover;
+background-position:center;
+height:100vh;
+}
+.homebox a{
+position:absolute;
+top:5%;
+right:5%;
+border:1px solid;
+text-decoration:none;
+color:white;
+font-size:20px;
+padding:5px 5px;
+}
+.homebox a:hover{
+background:white;
+color:black;
+padding:5px 5px;
+}
+.heading h1{
+top:30%;
+left:05%;
+position:absolute;
+color:white;
+text-align:center;
+}
+.textbox{
+width:400px;
+height:500px;
+top:15%;
+right:15%;
+background-color:black;
+position:absolute;
+text-align:center;
+opacity:0.7;
+}
+
+
+
+
+
+
+
+
+.textbox input{
+margin-bottom:20px;
+position:relative;
+border:none;
+border-bottom: 1px solid #fff;
+background:transparent;
+outline: none;
+height:20px;
+width:300px;
+font-size:15px;
+color:white;
+text-align:center;
+}
+
+.textbox p{
+font-weight:bold;
+color:white;
+padding:0 50px;
+font-style:"Ink free";
+text-align:center;
+}
+
+.textbox input[type="date"]
+{
+
+}
+
+.textbox input[type="submit"]
+{
+border:none;
+outline: none;
+height:20px;
+font-size:18px;
+background:red;
+color:black;
+}
+
+.textbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+}
+
+
+</style>
+</head>
+<body>
+<div class="superbox">
+
+<h1 style="color:white;">The Adventure Quest</h1>
+
+<div class=homebox>
+<a href="index.html">Home</a>
+</div>
+
+
+<div class=text><p style="font-size:100px;" ></div>
+
+
+<div class=heading>
+
+</div>
+
+<div class=textbox>
+
+<form action="db.php" method="post">
+<p style="font-size:25px;">First Name</p>
+<input type="text" placeholder="First Name" name="fname">
+
+<p style="font-size:25px;">Last Name</p>
+<input type="text" placeholder="Last Name" name="lname">
+
+<p style="font-size:25px;">Email Id</p>
+<input type="text" placeholder="Email Id" name="e">
+
+<p style="font-size:25px;">Date of birth</p>
+<input type="date" placeholder="Date of Birth" name="d">
+
+<p style="font-size:25px;">Mobile number</p>
+<input type="number" placeholder="number" name="num">
+
+<input type="submit" placeholder="Confirm Account" value="Submit">
+</form>
+</div>
+
+</div>
+</body>
+</html>
